@@ -5,17 +5,19 @@ public class SpecimenVault
     public void Add(string specimen)
     {
         specimens.Add(specimen);
-        // TODO
     }
 
     public bool Remove(string specimen)
     {
-        // TODO
-        return specimens.Remove(Specemen);
+        return specimens.Remove(specimen);
     }
 
     public void PrintAll()
     {
-        // TODO
+        foreach(string specimen in specimens)
+        {
+            
+        Console.WriteLine(specimen);
+        }
     }
 }
