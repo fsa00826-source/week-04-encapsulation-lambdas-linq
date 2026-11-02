@@ -16,7 +16,6 @@ public class SpecimenVault
     {
         foreach(string specimen in specimens)
         {
-            
         Console.WriteLine(specimen);
         }
     }
