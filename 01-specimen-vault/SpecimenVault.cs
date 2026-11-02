@@ -4,13 +4,14 @@ public class SpecimenVault
 
     public void Add(string specimen)
     {
+        specimens.Add(specimen);
         // TODO
     }
 
     public bool Remove(string specimen)
     {
         // TODO
-        return false;
+        return specimens.Remove(Specemen);
     }
 
     public void PrintAll()
