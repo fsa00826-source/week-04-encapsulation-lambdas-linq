@@ -6,5 +6,10 @@ List<Drone> copy = vault.GetDrones();
 
 // TODO: Eksperimenter med RemoveAt og deretter endring av Name.
 
-Console.WriteLine($"Vault count: {vault.Count}");
+copy.RemoveAt(0);
+Console.WriteLine($"Vault count etter RemoveAt: {vault.Count}");
+
+
+copy[0].Name = "Endret";
+Console.WriteLine($"Vault etter Navn-endring: {vault.Count}");
 vault.PrintAll();
