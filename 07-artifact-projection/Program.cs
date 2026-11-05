@@ -9,4 +9,5 @@ List<Artifact> artifacts = new List<Artifact>
 };
 
 
+
 // TODO: Bruk Select til tre ulike projeksjoner.
