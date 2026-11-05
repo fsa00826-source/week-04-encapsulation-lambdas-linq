@@ -10,5 +10,9 @@ static void PrintMatching(List<int> values, Func<int, bool> condition)
         {
             Console.WriteLine(value);
         }
+        if (condition(value >= 50 ))
+        {
+            
+        }
     }
 }
