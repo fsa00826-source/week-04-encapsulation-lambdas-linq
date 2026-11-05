@@ -2,16 +2,12 @@ List<int> readings = new List<int> { 20, 39, 40, 45, 50, 60, 61, 90 };
 
 // TODO: Send en multi-line lambda til PrintMatching.
 
-PrintMatching{
-
-(readings, distanceFromCenter = Math.Abs(value - 50)),
-bool _maxti;
-if(distanceFromCenter == 10)
+PrintMatching(readings, value =>
 {
-    _maxti = true;
-}
-
-}
+    int distanceFromCenter = Math.Abs(value - 50);
+    bool _maksti = distanceFromCenter <= 10;
+    return _maksti;
+});
 
 
 
